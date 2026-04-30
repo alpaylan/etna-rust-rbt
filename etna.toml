@@ -1,5 +1,6 @@
 name = "rbt-rust"
 language = "Rust"
+strategies = ["proptest", "quickcheck", "hegel"]
 description = "Red-Black Tree property-based testing workload (Rust)."
 
 mutations = [
